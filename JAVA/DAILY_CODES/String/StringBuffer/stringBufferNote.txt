@@ -1,0 +1,10 @@
+String is immutable in Java that means if we make changes in string then it will creates new object instead of doing some change in same string
+immutable means not changable
+StringBuffer is mutable...we can do some changes in string with same string without creating new object
+StringBuffer creates objects on Heap area
+String can be on SCP or on Heap
+Capacity o StringBuffer is 16 characters
+if we know that we are not going to make any changes in string then string class is best
+else use StringBuffer 
+
+
