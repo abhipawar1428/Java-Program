@@ -1,6 +1,7 @@
 class Demo{
 	int x=10;
 	private int y=20;
+	String str="Om";
 
 	void fun(){
 		System.out.println(x);
@@ -14,9 +15,10 @@ class MainDemo{
 
 	
 		System.out.println(obj.x);    //10
-		System.out.println(obj.y);    //error
+//		System.out.println(obj.y);    //error- acceesing private variable 
+		System.out.println(obj.str);  //Om
 
-		System.out.println(x);        //error
-		System.out.println(y);        //error
+//		System.out.println(x);        //error- cannot find symbol
+//		System.out.println(y);        //error- cannot find symbol
 	}
 }
